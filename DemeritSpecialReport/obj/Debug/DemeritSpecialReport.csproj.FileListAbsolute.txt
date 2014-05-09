@@ -1,0 +1,8 @@
+D:\GitHub2\DemeritSpecialReport\DemeritSpecialReport\bin\Debug\DemeritSpecialReport.dll
+D:\GitHub2\DemeritSpecialReport\DemeritSpecialReport\bin\Debug\DemeritSpecialReport.pdb
+D:\GitHub2\DemeritSpecialReport\DemeritSpecialReport\obj\Debug\DemeritSpecialReport.csprojResolveAssemblyReference.cache
+D:\GitHub2\DemeritSpecialReport\DemeritSpecialReport\obj\Debug\DemeritSpecialReport.Printer.resources
+D:\GitHub2\DemeritSpecialReport\DemeritSpecialReport\obj\Debug\DemeritSpecialReport.Properties.Resources.resources
+D:\GitHub2\DemeritSpecialReport\DemeritSpecialReport\obj\Debug\DemeritSpecialReport.csproj.GenerateResource.Cache
+D:\GitHub2\DemeritSpecialReport\DemeritSpecialReport\obj\Debug\DemeritSpecialReport.dll
+D:\GitHub2\DemeritSpecialReport\DemeritSpecialReport\obj\Debug\DemeritSpecialReport.pdb
