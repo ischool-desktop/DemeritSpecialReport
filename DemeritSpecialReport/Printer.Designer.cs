@@ -44,7 +44,7 @@
             this.buttonX1.AccessibleRole = System.Windows.Forms.AccessibleRole.PushButton;
             this.buttonX1.BackColor = System.Drawing.Color.Transparent;
             this.buttonX1.ColorTable = DevComponents.DotNetBar.eButtonColor.OrangeWithBackground;
-            this.buttonX1.Location = new System.Drawing.Point(136, 51);
+            this.buttonX1.Location = new System.Drawing.Point(178, 82);
             this.buttonX1.Name = "buttonX1";
             this.buttonX1.Size = new System.Drawing.Size(75, 23);
             this.buttonX1.Style = DevComponents.DotNetBar.eDotNetBarStyle.StyleManagerControlled;
@@ -57,7 +57,7 @@
             this.buttonX2.AccessibleRole = System.Windows.Forms.AccessibleRole.PushButton;
             this.buttonX2.BackColor = System.Drawing.Color.Transparent;
             this.buttonX2.ColorTable = DevComponents.DotNetBar.eButtonColor.OrangeWithBackground;
-            this.buttonX2.Location = new System.Drawing.Point(214, 51);
+            this.buttonX2.Location = new System.Drawing.Point(259, 82);
             this.buttonX2.Name = "buttonX2";
             this.buttonX2.Size = new System.Drawing.Size(75, 23);
             this.buttonX2.Style = DevComponents.DotNetBar.eDotNetBarStyle.StyleManagerControlled;
@@ -86,7 +86,7 @@
             this.cboSchoolYear.DropDownStyle = System.Windows.Forms.ComboBoxStyle.DropDownList;
             this.cboSchoolYear.FormattingEnabled = true;
             this.cboSchoolYear.ItemHeight = 19;
-            this.cboSchoolYear.Location = new System.Drawing.Point(61, 11);
+            this.cboSchoolYear.Location = new System.Drawing.Point(70, 11);
             this.cboSchoolYear.Name = "cboSchoolYear";
             this.cboSchoolYear.Size = new System.Drawing.Size(93, 25);
             this.cboSchoolYear.Style = DevComponents.DotNetBar.eDotNetBarStyle.StyleManagerControlled;
@@ -100,7 +100,7 @@
             // 
             this.labelX2.BackgroundStyle.Class = "";
             this.labelX2.BackgroundStyle.CornerType = DevComponents.DotNetBar.eCornerType.Square;
-            this.labelX2.Location = new System.Drawing.Point(160, 13);
+            this.labelX2.Location = new System.Drawing.Point(178, 13);
             this.labelX2.Name = "labelX2";
             this.labelX2.Size = new System.Drawing.Size(51, 23);
             this.labelX2.TabIndex = 4;
@@ -113,7 +113,7 @@
             this.cboSemester.DropDownStyle = System.Windows.Forms.ComboBoxStyle.DropDownList;
             this.cboSemester.FormattingEnabled = true;
             this.cboSemester.ItemHeight = 19;
-            this.cboSemester.Location = new System.Drawing.Point(196, 11);
+            this.cboSemester.Location = new System.Drawing.Point(220, 11);
             this.cboSemester.Name = "cboSemester";
             this.cboSemester.Size = new System.Drawing.Size(93, 25);
             this.cboSemester.Style = DevComponents.DotNetBar.eDotNetBarStyle.StyleManagerControlled;
@@ -127,7 +127,7 @@
             // 
             this.labelX3.BackgroundStyle.Class = "";
             this.labelX3.BackgroundStyle.CornerType = DevComponents.DotNetBar.eCornerType.Square;
-            this.labelX3.Location = new System.Drawing.Point(13, 51);
+            this.labelX3.Location = new System.Drawing.Point(13, 54);
             this.labelX3.Name = "labelX3";
             this.labelX3.Size = new System.Drawing.Size(51, 23);
             this.labelX3.TabIndex = 6;
@@ -135,24 +135,29 @@
             // 
             // numericUpDown1
             // 
-            this.numericUpDown1.Location = new System.Drawing.Point(61, 49);
+            this.numericUpDown1.Location = new System.Drawing.Point(70, 52);
             this.numericUpDown1.Name = "numericUpDown1";
-            this.numericUpDown1.Size = new System.Drawing.Size(69, 25);
+            this.numericUpDown1.Size = new System.Drawing.Size(93, 25);
             this.numericUpDown1.TabIndex = 7;
+            this.numericUpDown1.Value = new decimal(new int[] {
+            9,
+            0,
+            0,
+            0});
             // 
             // Printer
             // 
             this.AutoScaleDimensions = new System.Drawing.SizeF(8F, 17F);
             this.AutoScaleMode = System.Windows.Forms.AutoScaleMode.Font;
-            this.ClientSize = new System.Drawing.Size(304, 83);
+            this.ClientSize = new System.Drawing.Size(353, 115);
             this.Controls.Add(this.numericUpDown1);
-            this.Controls.Add(this.labelX3);
             this.Controls.Add(this.cboSemester);
-            this.Controls.Add(this.labelX2);
             this.Controls.Add(this.cboSchoolYear);
-            this.Controls.Add(this.labelX1);
             this.Controls.Add(this.buttonX2);
             this.Controls.Add(this.buttonX1);
+            this.Controls.Add(this.labelX3);
+            this.Controls.Add(this.labelX2);
+            this.Controls.Add(this.labelX1);
             this.DoubleBuffered = true;
             this.Name = "Printer";
             this.Text = "懲戒特殊表現(功過相抵)";
